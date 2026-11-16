@@ -13,9 +13,9 @@ Supported: PFX, SFX, strip strings, regex conditions, cross-products.
 Not supported: COMPOUND*, NEEDAFFIX, PFX/SFX capitalisation tricks,
 phonetic REP rules (irrelevant for word validity).
 
-Licence note: ms_MY .dic/.aff are GFDL/GPL (MIMOS/PTS/UPSI). Fine for a
-prototype; for an App Store release prefer a licensed DBP list (see
-legal/) or a CC-BY source.
+Licence note: ms_MY .aff states GPL (MIMOS/PTS/UPSI); the .dic carries no
+licence statement of its own. The derived list ships under GPL-2.0 with its
+source at wordlist-gpl/ — see legal/THIRD-PARTY-NOTICES.md.
 """
 
 from __future__ import annotations

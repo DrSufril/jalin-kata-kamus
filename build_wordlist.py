@@ -214,9 +214,10 @@ def main() -> int:
         "data_licence": ("GPL-2.0 for the derived list; published at "
                          "wordlist-gpl/"),
         "notices": "legal/THIRD-PARTY-NOTICES.md",
-        "authority": ("NOT validated against Kamus Dewan Perdana. "
-                      "Replace with a licensed DBP list (see legal/) "
-                      "before App Store release."),
+        "authority": ("NOT validated against Kamus Dewan Perdana and not "
+                      "endorsed by DBP. A DBP licence is parked (legal/); the "
+                      "shipping basis is the GPL-2.0 release of this list at "
+                      "wordlist-gpl/."),
         "policy": ("attested-only" if not generated
                    else "attested + generated candidates (review required)"),
     }
